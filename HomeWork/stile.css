@@ -1,13 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
 body{
     font-family: sans-serif;
 }
 .paragraph{
     font-size: 16px;
     line-height: 26px;
+    width: 425px;
     color: #1F3F68;
 }
 .heading_1{
     font-size: 64px;
+    width: 510px;
     color: #1F3F68;
 }
 .heading_contacts{
@@ -22,6 +36,7 @@ body{
 .heading_4{
     font-size: 20px;
     line-height: 30px;
+    width: 359px;
     color: #1F3F68;
 }
 .input_area{
@@ -41,3 +56,24 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
 }
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.futer_text{
+    width: 495px;
+}
+.futer_heading{
+    width: 340px;
+}
+.futer_info{
+    display: flex;
+    justify-content: space-between;
+}
+.main_body{
+    display: flex;
+}
+.map{
+    width: 100%;
+}
+
