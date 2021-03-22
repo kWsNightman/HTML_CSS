@@ -56,7 +56,7 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
 }
-.cards{
+.body_second_page{
     display: flex;
     justify-content: space-between;
 }
