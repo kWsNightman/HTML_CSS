@@ -12,49 +12,54 @@
 <body>
     <div class="header container">
         <ul class="menu">
-            <li><a href="index.html">Главная страница</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="index.html"><img src="./img/main_page.png" alt="Главная страница"></a></li>
+            <li><a href="contacts.html"><img src="./img/contacts.svg" alt="Контакты"></a></li>
         </ul>
-        <div class="header_text">
+    </div>
+    <div class="contact_img">
+        <div class="header_text contacts_container">
             <h2 class="heading_contacts">Contact Us</h2>
-            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi perspiciatis ad
-                consequatur
-                minus quod dolores obcaecati asperiores ipsa velit quos et quo, voluptatum explicabo dolor sed rerum
-                voluptas
-                omnis repellat.</p>
+            <p class="contacts_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna
+                aliqua.</p>
         </div>
     </div>
-    <div class="image container">
-        <img src="img/image.jpg" alt="Картинка" width="350">
-    </div>
-    <div class="main_body container">
+
+
+    <div class="main_body contacts_container">
         <div class="contacts">
-            <h4 class="heading_4">Address</h4>
-            <p class="paragraph">address</p>
-            <h4 class="heading_4">Phone</h4>
-            <ol>
-                <li>+3751234567</li>
-                <li>+3759876541</li>
+            <img src="./img/contact_img_1.png" alt="Картинка">
+            <h4 class="heading_4_info">Address</h4>
+            <p class="paragraph_info">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+            <h4 class="heading_4_info">Phone</h4>
+            <ol class="info_list">
+                <li class="phone">+3751234567</li>
+                <li class="phone">+3759876541</li>
             </ol>
-            <h4 class="heading_4">Online service</h4>
-            <ul>
-                <li><a href="https://geekbrains.ru/">Сайт</a></li>
-                <li><a href="mailto:hello@gmail.com">hello@gmail.com</a></li>
+            <h4 class="heading_4_info">Online service</h4>
+            <ul class="info_list">
+                <li style="list-style-image: url(./img/veb.png);" class="linck"><a class="text_linck"
+                        href="https://geekbrains.ru/">Сайт</a></li>
+                <li style="list-style-image: url(./img/mail.png);" class="linck linck"><a class="text_linck"
+                        href="mailto:hello@gmail.com">hello@gmail.com</a></li>
             </ul>
         </div>
         <div class="main_form">
             <form action="#">
-                <h4 class="heading_4">Send us message</h4>
-                Full Name <input class="input_area" type="text" placeholder="Ф.И.О"><br>
-                Email <input class="input_area" type="email" placeholder="exemple@mail.ru"><br>
-                Message <br>
-                <textarea class="input_area" cols="30" rows="5" placeholder="Введите ваше сообшение"></textarea>
-                <br>
+                <h4 class="heading_4_contacts">SEND US MESSAGE</h4>
+                <div class="form_pref">Full Name</div>
+                <input class="input_area" type="text" placeholder="Ф.И.О">
+                <div class="form_pref">Email</div>
+                <input class="input_area" type="email" placeholder="exemple@mail.ru">
+                <div class="form_pref">Message</div>
+                <textarea class="input_area input_text" cols="30" rows="5"
+                    placeholder="Введите ваше сообшение"></textarea>
+
                 <button class="bot_subm" type="submit">submit</button>
-            </form><br>
+            </form>
         </div>
     </div>
-    <div class="container">
+    <div class="contacts_container">
         <div class="map">
             <script type="text/javascript" charset="utf-8" async
                 src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A864ed6fe7cf86b49be2cf4c5e41fb6063a3212c593aa41d9161ee926e9c92181&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
@@ -62,21 +67,31 @@
     </div>
 
     <div class="futer">
-        <div class="container">
-            <div class="futer_text">
-                <h3 class="futer_heading heading_3">Заголовок еще один</h3>
-                <p class="paragraph">Параграф длинна которого должна быть до 10 слов</p>
-            </div>
-            <hr>
-            <div class="futer_bottom">
-                <ul class="futer_info">
-                    <li>Произвольный текст не более 5 слов</li>
-                    <li>+375123456789</li>
-                    <li><a href="mailto:address@mail.ru">address@mail.ru</a></li>
-                </ul>
-                <div class="copyright">
-                    <p class="paragraph">&copy; Все права защищены</p>
+        <div class="container futer_container">
+            <div class="futer_box">
+                <div class="futer_text">
+                    <h3 class="futer_heading heading_3">Intersted to woek
+                        with our team?</h3>
+                    <p class="paragraph futer_paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do&nbsp;eiusmod tempor incididunt
+                        ut&nbsp;labore
+                        et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam.
+                    </p>
                 </div>
+                <a class="futer_buttum" href="#">Let’s Talk</a>
+            </div>
+        </div>
+        <hr class="futer_hr">
+        <div class="container futer_container">
+            <div class="futer_bottom">
+                <ol class="futer_info">
+                    <li class="li_elem"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="li_elem li_elem_mid"> +375123456789</li>
+                    <li class="li_elem "><a class="li_elem_a" href="mailto:address@mail.ru"> address@mail.ru</a></li>
+                </ol>
+
+                <p class="copyright">&copy; 2021 All rights reserved.</p>
+
             </div>
         </div>
     </div>
